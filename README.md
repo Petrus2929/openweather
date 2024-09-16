@@ -1,6 +1,6 @@
 # Mini webová aplikácia na predpoveď počasia pre konkrétny deň a mesto
 
-## Pre spustenie si stačí naklonovať repozitár k sebe na server a spustiť skript index.php
+## Pre spustenie si stačí naklonovať repozitár k sebe na server, v koreňovom adresári spustiť cez cmd príkaz 'composer install' a cez prehliadač zavolať linku http://localhost/openweather/index.php
 
 ### Z dostupných free API rozhraní OpenWeather využívam https://openweathermap.org/forecast5 -> príklad endpointu na OpenWeatherData je "http://api.openweathermap.org/data/2.5/forecast?q=Bratislava&appid={>apiKey}&units=metric";
 ### Na zapisovanie dát do excelu využívam knižnicu dostupnú na https://github.com/PHPOffice/PhpSpreadsheet
